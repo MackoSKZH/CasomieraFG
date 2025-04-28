@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/2d42be1614.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.cdnfonts.com/css/seven-segment" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/roboto-mono" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>FIRST Game Timer | Časovač</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YTHMG22T21"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-YTHMG22T21');
+    </script>
+</head>
+<body class="noselect">
+    <div class="header">
+        <div class="logo" id="first_logo"><img id="first-logo-img" src="img/first_logo.png"></div>
+        <div class="team_container">
+            <div class="team_row table_ab"><h2 id="title_row_01">FIRST Global Slovensko</h2></div>
+            <!-- <div class="team_row table_cd"><h2 id="title_row_02">2025</h2></div> -->
+        </div>
+        <div class="logo" id="season_logo"><img src="img/FIRST_Global_Slovakia_Logo_2025_white.png"></div>
+    </div>
+    <div class="time_container">
+        <div class="time_cell" id="time_cell">
+            <h1><span id="minutes">00</span><span id="dots">:</span><span id="seconds">00</span></h1>
+        </div>
+    </div>
+</body>
+<script src="js/tools.js"></script>
+<script src="js/read_data.js"></script>
+<script src="js/timer.js"></script>
+</html>
